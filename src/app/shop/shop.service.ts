@@ -37,6 +37,10 @@ export class ShopService {
     return this.http.get<Pagination<IProduct[]>>(this.baseURL + 'products', {params});
   }
 
+  getProduct(id: number){
+    return this.http.get<IProduct>(this.baseURL + 'products/' + id);
+  }
+
   getBrands(): Observable<Brand[]>{
     return this.http.get<Brand[]>(this.baseURL + 'products/brands');
   }
