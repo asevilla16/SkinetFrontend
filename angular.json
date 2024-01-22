@@ -30,6 +30,8 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/ngx-spinner/animations/ball-scale-multiple.css",
+              "node_modules/bootswatch/dist/spacelab/bootstrap.min.css",
               "src/styles.scss",
               "node_modules/ngx-toastr/toastr.css"
             ],
